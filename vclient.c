@@ -105,7 +105,7 @@ void init(){
 
 	initscr();
     start_color(); //for using color option
-	init_pair(0, COLOR_WHITE, COLOR_BLACK); //set color themes
+		init_pair(0, COLOR_WHITE, COLOR_BLACK); //set color themes
     init_pair(1, COLOR_BLUE, COLOR_WHITE);
     init_pair(2, COLOR_GREEN, COLOR_WHITE);
     init_pair(3, COLOR_RED, COLOR_WHITE);
